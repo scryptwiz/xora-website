@@ -1,8 +1,10 @@
+import {Header} from "./sections"
+
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <main className="overflow-hidden">
+      <Header />
+    </main>
   )
 }
 
