@@ -1,4 +1,4 @@
-import {Faq, Features, Header, Hero, Pricing, Testimonials} from "./sections"
+import {Download, Faq, Features, Footer, Header, Hero, Pricing, Testimonials} from "./sections"
 
 const App = () => {
     return (
@@ -9,6 +9,8 @@ const App = () => {
             <Pricing/>
             <Faq/>
             <Testimonials/>
+            <Download />
+            {/*<Footer/>*/}
         </main>
     )
 }

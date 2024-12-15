@@ -4,6 +4,7 @@ import clsx from "clsx";
 import CountUp from "react-countup";
 import { plans } from "../constants/index.jsx";
 import {Button} from "../components";
+import {Outline, OutlineFill} from "../assets/images/index.jsx";
 
 const Pricing = () => {
     const [monthly, setMonthly] = useState(false);
@@ -41,14 +42,14 @@ const Pricing = () => {
 
                         <div className="pricing-bg">
                             <img
-                                src="/images/bg-outlines.svg"
+                                src={Outline}
                                 width={960}
                                 height={380}
                                 alt="outline"
                                 className="relative z-2"
                             />
                             <img
-                                src="/images/bg-outlines-fill.png"
+                                src={OutlineFill}
                                 width={960}
                                 height={380}
                                 alt="outline"
